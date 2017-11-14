@@ -1,0 +1,3 @@
+#!/bin/bash
+make clean
+rm -f *.a *.cma *.cmxa *.cmxs *.cmo *.cmi *.cmx *.d *.o *.aux *.glob *.vo

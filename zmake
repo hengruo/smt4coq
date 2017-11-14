@@ -1,0 +1,4 @@
+#!/bin/bash
+coq_makefile *.ml *.ml4 *.mllib > Makefile
+make
+coqc SMT.v
